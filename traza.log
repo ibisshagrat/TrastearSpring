@@ -1,0 +1,18 @@
+2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 47054 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:04 DEBUG 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:04  WARN 47054 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.452 seconds (JVM running for 2.8)
+2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=1, nombre=Nico]
+2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=2, nombre=Lola]
+2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=3, nombre=Lola]
+2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 47258 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:05 DEBUG 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:05  WARN 47258 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 3.077 seconds (JVM running for 3.461)
+2021-05-06 13:05 TRACE 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
+2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=1, nombre=Nico]
+2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=2, nombre=Lola]
+2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=3, nombre=Lola]
+2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=4, nombre=Lola]
