@@ -16,3 +16,89 @@
 2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=2, nombre=Lola]
 2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=3, nombre=Lola]
 2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=4, nombre=Lola]
+2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49407 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:36 DEBUG 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:36  WARN 49407 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.476 seconds (JVM running for 2.809)
+2021-05-06 13:39  INFO 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49708 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:39 DEBUG 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:39  INFO 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:39  WARN 49708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-05-06 13:40  WARN 49708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:40  WARN 49708 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2021-05-06 13:40 ERROR 49708 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at es.mde.TrastearSpring.TrastearSpringApplication.main(TrastearSpringApplication.java:28) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:243) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.4.5.jar:2.4.5]
+	... 22 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1074) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	... 24 common frames omitted
+Caused by: java.net.BindException: La dirección ya se está usando
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:550) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:300) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:253) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1204) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1290) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:614) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1071) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	... 26 common frames omitted
+
+2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49948 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:42 DEBUG 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49407 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:42 DEBUG 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:42  WARN 49407 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 0.436 seconds (JVM running for 347.464)
+2021-05-06 13:42 TRACE 49407 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
+2021-05-06 13:42  INFO 49407 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
+2021-05-06 13:42  WARN 49948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.532 seconds (JVM running for 2.861)
+2021-05-06 13:42 TRACE 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
+2021-05-06 13:42  INFO 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
+2021-05-06 13:42  INFO 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =2 nombre y apellidos LolaesSuperVip=false]
+2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 50106 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
+2021-05-06 13:43 DEBUG 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-06 13:43  WARN 50106 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 3.158 seconds (JVM running for 3.547)
+2021-05-06 13:43 TRACE 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
+2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
+2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =2 nombre y apellidos LolaesSuperVip=false]
+2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =3 nombre y apellidos NicoesSuperVip=true]

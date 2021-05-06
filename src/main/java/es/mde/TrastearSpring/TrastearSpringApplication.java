@@ -10,7 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 import es.mde.TrastearSpring.entidades.Cliente;
-import es.mde.TrastearSpring.repositorios.ClienteDAO;
+import es.mde.TrastearSpring.entidades.ClienteVIP;
+import es.mde.TrastearSpring.repositorios.ClienteVipDAO;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -26,13 +27,13 @@ public class TrastearSpringApplication {
 		ConfigurableApplicationContext context =
 				SpringApplication.run(TrastearSpringApplication.class, args);
 		
-		Cliente cliente = new Cliente(77877, "Lola");
+		ClienteVIP cliente = new ClienteVIP("Nico", true);
 		System.out.println(cliente.toString());		
 		
-		ClienteDAO clienteDAO = context.getBean(ClienteDAO.class);
+		ClienteVipDAO clienteDAO = context.getBean(ClienteVipDAO.class);
 		System.out.println("traza antes guardar");
 		clienteDAO.save(cliente);
-		List<Cliente> clientes = clienteDAO.findAll();
+		List<ClienteVIP> clientes = clienteDAO.findAll();
 //		clientes.forEach(System.out::println);
 		log.trace("Datos almacenados");
 		clientes.stream().map(Cliente::toString).forEach(log::info);
