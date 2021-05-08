@@ -10,11 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 import es.mde.TrastearSpring.entidades.Cliente;
-import es.mde.TrastearSpring.entidades.ClienteVIP;
-import es.mde.TrastearSpring.repositorios.ClienteVipDAO;
-
-import java.io.IOException;
-import java.text.ParseException;
+import es.mde.TrastearSpring.entidades.Pedido;
+import es.mde.TrastearSpring.repositorios.ClienteDAO;
+import es.mde.TrastearSpring.repositorios.PedidoDAO;
 
 @SpringBootApplication
 @ImportResource({"classpath:config/jpa-config.xml"})
@@ -22,22 +20,32 @@ public class TrastearSpringApplication {
 
     private static Logger log = LoggerFactory.getLogger(Cliente.class);
     
-	public static void main(String[] args) throws ParseException, IOException {
+	public static void main(String[] args) {
 		
 		ConfigurableApplicationContext context =
 				SpringApplication.run(TrastearSpringApplication.class, args);
 		
-		ClienteVIP cliente = new ClienteVIP("Nico", true);
-		System.out.println(cliente.toString());		
+		Cliente cliente = new Cliente("Jr");
+		Pedido pedido = new Pedido(1224l,"telefonos", cliente);
+		cliente.addPedido(pedido);
 		
-		ClienteVipDAO clienteDAO = context.getBean(ClienteVipDAO.class);
 		System.out.println("traza antes guardar");
+
+		ClienteDAO clienteDAO = context.getBean(ClienteDAO.class);
 		clienteDAO.save(cliente);
-		List<ClienteVIP> clientes = clienteDAO.findAll();
-//		clientes.forEach(System.out::println);
+		System.out.println("Cliente guardado");
+		
+		PedidoDAO pedidoDAO = context.getBean(PedidoDAO.class);
+		pedidoDAO.save(pedido);
+		System.out.println("Pedido guardado");
+
+		
+		List<Cliente> clientes = clienteDAO.findAll();
 		log.trace("Datos almacenados");
 		clientes.stream().map(Cliente::toString).forEach(log::info);
-		
+
+		List<Pedido> pedidos = pedidoDAO.findAll();
+		pedidos.stream().map(Pedido::toString).forEach(log::info);
 		
 		context.close();
 	}
