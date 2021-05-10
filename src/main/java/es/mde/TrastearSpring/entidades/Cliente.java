@@ -5,16 +5,19 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 
-@MappedSuperclass
-@Table(name = "Clientes")
+@Entity
+@Table(name = "CLIENTES")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Cliente {
 	
 	@Id
@@ -23,6 +26,8 @@ public class Cliente {
 	private long id;
 	@Column(name = "Nombre_Apellidos")
 	private String nombre;
+	private transient String datoIrrelevanteA;
+	private String datoIrrelevanteB;
 	@OneToMany(cascade = CascadeType.MERGE, targetEntity = Pedido.class, mappedBy = "cliente")
 	List<Pedido> pedidos = new ArrayList<Pedido>();
 	
@@ -37,6 +42,19 @@ public class Cliente {
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	
+	public String getDatoIrrelevanteA() {
+		return datoIrrelevanteA;
+	}
+	public void setDatoIrrelevanteA(String datoIrrelevanteA) {
+		this.datoIrrelevanteA = datoIrrelevanteA;
+	}
+	public String getDatoIrrelevanteB() {
+		return datoIrrelevanteB;
+	}
+	public void setDatoIrrelevanteB(String datoIrrelevanteB) {
+		this.datoIrrelevanteB = datoIrrelevanteB;
 	}
 	
 	public List<Pedido> getPedidos() {
@@ -61,6 +79,7 @@ public class Cliente {
 	public Cliente(String nombre) {
 		this.nombre = nombre;
 	}
+
 
 	
 	

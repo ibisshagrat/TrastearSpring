@@ -1,43 +1,80 @@
-2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 47054 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:04 DEBUG 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:04  WARN 47054 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:04  INFO 47054 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.452 seconds (JVM running for 2.8)
-2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=1, nombre=Nico]
-2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=2, nombre=Lola]
-2021-05-06 13:04  INFO 47054 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=3, nombre=Lola]
-2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 47258 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:05 DEBUG 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:05  WARN 47258 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:05  INFO 47258 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 3.077 seconds (JVM running for 3.461)
-2021-05-06 13:05 TRACE 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
-2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=1, nombre=Nico]
-2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=2, nombre=Lola]
-2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=3, nombre=Lola]
-2021-05-06 13:05  INFO 47258 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Cliente [id=4, nombre=Lola]
-2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49407 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:36 DEBUG 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:36  WARN 49407 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:36  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.476 seconds (JVM running for 2.809)
-2021-05-06 13:39  INFO 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49708 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:39 DEBUG 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:39  INFO 49708 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:39  WARN 49708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2021-05-06 13:40  WARN 49708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:40  WARN 49708 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
-2021-05-06 13:40 ERROR 49708 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2021-05-10 12:35  INFO 18368 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 18368 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 12:35 DEBUG 18368 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 12:35  INFO 18368 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
-org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.6.jar:5.3.6]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.6.jar:5.3.6]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.6.jar:5.3.6]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.6.jar:5.3.6]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.6.jar:5.3.6]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.6.jar:5.3.6]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.6.jar:5.3.6]
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:439) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:321) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:67) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2035) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:66) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:203) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:97) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:259) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:233) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5161) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.6.jar:5.3.6]
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
@@ -51,54 +88,364 @@ org.springframework.context.ApplicationContextException: Failed to start bean 'w
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.4.5.jar:2.4.5]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.4.5.jar:2.4.5]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.6.jar:5.3.6]
-	... 20 common frames omitted
-Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
-	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:243) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.4.5.jar:2.4.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.4.5.jar:2.4.5]
-	... 22 common frames omitted
-Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1074) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	... 24 common frames omitted
-Caused by: java.net.BindException: La direcciÃ³n ya se estÃ¡ usando
-	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.bind(Net.java:550) ~[na:na]
-	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249) ~[na:na]
-	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:300) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:253) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1204) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1290) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:614) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1071) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
-	... 26 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:83) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:119) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:435) ~[h2-1.4.200.jar:1.4.200]
+	... 79 common frames omitted
 
-2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49948 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:42 DEBUG 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 49407 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/build/classes/java/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:42 DEBUG 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:42  WARN 49407 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:42  INFO 49407 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 0.436 seconds (JVM running for 347.464)
-2021-05-06 13:42 TRACE 49407 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
-2021-05-06 13:42  INFO 49407 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
-2021-05-06 13:42  WARN 49948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:42  INFO 49948 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 2.532 seconds (JVM running for 2.861)
-2021-05-06 13:42 TRACE 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
-2021-05-06 13:42  INFO 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
-2021-05-06 13:42  INFO 49948 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =2 nombre y apellidos LolaesSuperVip=false]
-2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on alumno6-HP-Compaq-Pro-6300-SFF with PID 50106 (/home/alumno6/Dropbox/proyectos-librerias/TrastearSpring/bin/main started by alumno6 in /home/alumno6/Dropbox/proyectos-librerias/TrastearSpring)
-2021-05-06 13:43 DEBUG 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
-2021-05-06 13:43  WARN 50106 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-06 13:43  INFO 50106 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 3.158 seconds (JVM running for 3.547)
-2021-05-06 13:43 TRACE 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : Datos almacenados
-2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =1 nombre y apellidos LolaesSuperVip=false]
-2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =2 nombre y apellidos LolaesSuperVip=false]
-2021-05-06 13:43  INFO 50106 --- [restartedMain] es.mde.TrastearSpring.entidades.Cliente  : ClienteVIP [id =3 nombre y apellidos NicoesSuperVip=true]
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:439) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:321) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at es.mde.TrastearSpring.TrastearSpringApplication.main(TrastearSpringApplication.java:28) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:83) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:119) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:435) ~[h2-1.4.200.jar:1.4.200]
+	... 56 common frames omitted
+
+2021-05-10 12:35  WARN 18368 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:439) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:321) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at es.mde.TrastearSpring.TrastearSpringApplication.main(TrastearSpringApplication.java:28) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:83) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:119) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:435) ~[h2-1.4.200.jar:1.4.200]
+	... 56 common frames omitted
+
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:439) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:321) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:155) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at es.mde.TrastearSpring.TrastearSpringApplication.main(TrastearSpringApplication.java:28) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:83) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:119) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:435) ~[h2-1.4.200.jar:1.4.200]
+	... 54 common frames omitted
+
+2021-05-10 12:35  WARN 18368 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90067, SQLState: 90067
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2021-05-10 12:35  WARN 18368 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [config/jpa-config.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2021-05-10 12:35 ERROR 18368 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [config/jpa-config.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at es.mde.TrastearSpring.TrastearSpringApplication.main(TrastearSpringApplication.java:28) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 22 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:155) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.6.jar:5.3.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.6.jar:5.3.6]
+	... 26 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Conexión rota: "java.net.SocketTimeoutException: Connect timed out: localhost"
+Connection is broken: "java.net.SocketTimeoutException: Connect timed out: localhost" [90067-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:439) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:321) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
+	... 40 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.util.NetUtils.createSocket(NetUtils.java:83) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:119) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectServer(SessionRemote.java:435) ~[h2-1.4.200.jar:1.4.200]
+	... 54 common frames omitted
+
+2021-05-10 12:36  INFO 9008 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 9008 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 12:36 DEBUG 9008 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 12:36  INFO 9008 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 12:36  WARN 9008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 12:36  INFO 9008 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.079 seconds (JVM running for 4.55)
+2021-05-10 12:49  INFO 16424 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 16424 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 12:49 DEBUG 16424 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 12:49  INFO 16424 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 12:49  WARN 16424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 12:49  INFO 16424 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.111 seconds (JVM running for 4.595)
+2021-05-10 13:24  INFO 12084 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 12084 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 13:24 DEBUG 12084 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 13:24  INFO 12084 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 13:24  WARN 12084 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 13:24  INFO 12084 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.043 seconds (JVM running for 4.52)
+2021-05-10 13:29  INFO 8512 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 8512 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 13:29 DEBUG 8512 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 13:29  INFO 8512 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 13:29  WARN 8512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 13:29  INFO 8512 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 3.956 seconds (JVM running for 4.433)
+2021-05-10 13:35  INFO 14480 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 14480 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 13:35 DEBUG 14480 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 13:35  INFO 14480 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 13:35  WARN 14480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 13:35  INFO 14480 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.044 seconds (JVM running for 4.547)
+2021-05-10 14:13  WARN 14480 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s669ms241µs).
+2021-05-10 14:41  INFO 13836 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 13836 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 14:41 DEBUG 13836 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 14:41  INFO 13836 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 14:41  WARN 13836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 14:41  INFO 13836 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.061 seconds (JVM running for 4.576)
+2021-05-10 14:42  INFO 7524 --- [restartedMain] e.m.T.TrastearSpringApplication          : Starting TrastearSpringApplication using Java 15.0.1 on DESKTOP-R5GUE0E with PID 7524 (C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring\build\classes\java\main started by ibiss in C:\Users\ibiss\Dropbox\Estudios y trabajo\Estudios y formacion\30 - DIM\proyectos-librerias\TrastearSpring)
+2021-05-10 14:42 DEBUG 7524 --- [restartedMain] e.m.T.TrastearSpringApplication          : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-10 14:42  INFO 7524 --- [restartedMain] e.m.T.TrastearSpringApplication          : No active profile set, falling back to default profiles: default
+2021-05-10 14:42  WARN 7524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 14:42  INFO 7524 --- [restartedMain] e.m.T.TrastearSpringApplication          : Started TrastearSpringApplication in 4.138 seconds (JVM running for 4.628)
