@@ -12,7 +12,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -33,7 +32,8 @@ public class Cliente {
 	private String nombre;
 	private transient String datoIrrelevanteA;
 	private String datoIrrelevanteB;
-	@OneToMany(cascade = CascadeType.MERGE, targetEntity = Pedido.class, mappedBy = "cliente")
+	private boolean vip;
+	@OneToMany(cascade = CascadeType.ALL, targetEntity = Pedido.class, mappedBy = "cliente")
 	List<Pedido> pedidos = new ArrayList<Pedido>();
 	
 	public long getId() {
@@ -74,6 +74,12 @@ public class Cliente {
 		pedidos.add(pedido);
 	}
 	
+	public boolean isVip() {
+		return vip;
+	}
+	public void setVip(boolean vip) {
+		this.vip = vip;
+	}
 
 	public Cliente() {}
 	
@@ -85,5 +91,6 @@ public class Cliente {
 	public String toString() {
 		return "Cliente [id=" + id + ", nombre=" + nombre + "]";
 	}
+
 	
 }

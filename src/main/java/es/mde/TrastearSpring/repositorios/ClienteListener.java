@@ -11,6 +11,7 @@ import es.mde.TrastearSpring.entidades.Cliente;
 @Component
 public class ClienteListener {
 
+	@SuppressWarnings("unused")
 	private ClienteDAO clienteDAO;
 	
 	@Autowired

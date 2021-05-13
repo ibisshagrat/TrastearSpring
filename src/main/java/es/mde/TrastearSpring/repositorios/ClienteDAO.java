@@ -9,7 +9,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 import es.mde.TrastearSpring.entidades.Cliente;
 
 @RepositoryRestResource(path = "clientes", itemResourceRel = "cliente", collectionResourceRel = "clientes")
-public interface ClienteDAO extends JpaRepository<Cliente, Long>{
+public interface ClienteDAO extends JpaRepository<Cliente, Long>, ClienteDAOCustom{
 
 	@RestResource(path="buscar")
 	List<Cliente> findByNombre(String nombre);
