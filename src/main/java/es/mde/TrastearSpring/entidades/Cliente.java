@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -12,9 +14,14 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import es.mde.TrastearSpring.repositorios.ClienteListener;
 
 
-@MappedSuperclass
+@Entity
+@EntityListeners(ClienteListener.class)
+@Table(name = "CLIENTES")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Cliente {
 	
@@ -67,18 +74,16 @@ public class Cliente {
 		pedidos.add(pedido);
 	}
 	
-	@Override
-	public String toString() {
-		return "Cliente [id=" + id + ", nombre=" + nombre + "]";
-	}
-	
+
 	public Cliente() {}
 	
 	public Cliente(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-	
+	@Override
+	public String toString() {
+		return "Cliente [id=" + id + ", nombre=" + nombre + "]";
+	}
 	
 }
