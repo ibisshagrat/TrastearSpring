@@ -16,7 +16,7 @@ import es.mde.TrastearSpring.repositorios.ClienteListener;
 public class ClienteVIP extends Cliente {
 	
 	
-	private boolean esSuperVip;
+	private boolean superVip;
 	
 	public ClienteVIP () {
 		
@@ -28,6 +28,7 @@ public class ClienteVIP extends Cliente {
 		this.esSuperVip =  esSuperVip;
 	}
 
+	
 
 	public boolean isEsSuperVip() {
 		return esSuperVip;

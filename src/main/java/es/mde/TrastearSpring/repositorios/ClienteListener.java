@@ -11,10 +11,10 @@ import es.mde.TrastearSpring.entidades.ClienteVIP;
 @Component
 public class ClienteListener {
 
-	private ClienteDAO clienteDAO;
+	private ClienteVipDAO clienteDAO;
 	
 	@Autowired
-	public void init (ClienteDAO clienteDAO) {
+	public void init (ClienteVipDAO clienteDAO) {
 		this.clienteDAO = clienteDAO;
 	}
 	
