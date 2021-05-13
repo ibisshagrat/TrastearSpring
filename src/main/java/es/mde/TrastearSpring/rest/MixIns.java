@@ -10,6 +10,8 @@ public class MixIns {
 	public static interface Clientes {
 		@JsonProperty("nombreCompleto")
 		abstract String getNombre();
+		@JsonProperty("id")
+		abstract Long getId();
 
 	}
 	
