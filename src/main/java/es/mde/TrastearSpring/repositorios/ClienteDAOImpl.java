@@ -9,23 +9,23 @@ import javax.persistence.PersistenceContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import es.mde.TrastearSpring.entidades.ClienteVIP;
+import es.mde.TrastearSpring.entidades.Cliente;
 
 @Transactional(readOnly = true)
-public class ClienteVipDaoImpl implements ClienteVipDAOCustom{
+public class ClienteDAOImpl implements ClienteDAOCustom{
 
 	@Autowired
-	ClienteVipDAO clienteDAO;
+	ClienteDAO clienteDAO;
 	
 	@PersistenceContext
 	EntityManager entityManager;
 	
 	@Override
-	public List<ClienteVIP> getClienteMuyVIP() {
-		List<ClienteVIP> clientes = clienteDAO.findAll().stream()
-				.filter(c -> c.isEsSuperVip())
-				.collect(Collectors.toList());	
+	public List<Cliente> getClientesVip() {
+		List<Cliente> clientes = clienteDAO.findAll().stream()
+				.filter(c -> c.isVip())
+				.collect(Collectors.toList());
 		return clientes;
 	}
-
+	
 }

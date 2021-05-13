@@ -29,7 +29,7 @@ import org.springframework.web.filter.CorsFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import es.mde.TrastearSpring.entidades.ClienteVIP;
+import es.mde.TrastearSpring.entidades.Cliente;
 import es.mde.TrastearSpring.entidades.Pedido;
 import es.mde.TrastearSpring.rest.ClienteController;
 import es.mde.TrastearSpring.rest.MixIns;
@@ -42,8 +42,7 @@ public class ConfiguracionPorJava {
 	public ObjectMapper getObjectMapper() {
 
 		ObjectMapper mapper = new ObjectMapper();
-		// Los MixIn se pueden usar y reutilizar sobre codigo que no controlo
-		mapper.addMixIn(ClienteVIP.class, MixIns.Clientes.class);
+		mapper.addMixIn(Cliente.class, MixIns.Clientes.class);
 		mapper.addMixIn(Pedido.class, MixIns.Pedidos.class);		
 		return mapper;
 	}
@@ -51,7 +50,7 @@ public class ConfiguracionPorJava {
     @Bean
     RepresentationModelProcessor<RepositorySearchesResource> addSearchLinks(RepositoryRestConfiguration config) {
         Map<Class<?>, Class<?>> controllersRegistrados = new HashMap<>();
-        controllersRegistrados.put(ClienteVIP.class, ClienteController.class);
+        controllersRegistrados.put(Cliente.class, ClienteController.class);
 
         return new RepresentationModelProcessor<RepositorySearchesResource>() {
 
@@ -86,14 +85,6 @@ public class ConfiguracionPorJava {
         };
     }
 
-    /**
-     * Ver tambien <a href=
-     * "https://docs.spring.io/spring-data/rest/docs/current/reference/html/#customizing-sdr.configuring-cors">
-     * Configuring CORS</a> para configuracion Data Rest adicional heredada con
-     * {@link org.springframework.web.bind.annotation.CrossOrigin}.
-     * 
-     * @return bean del tipo {@link CorsFilter} permitiendo cualquier solicitud
-     */
     @Bean
     CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
@@ -106,5 +97,4 @@ public class ConfiguracionPorJava {
 
         return new CorsFilter(source);
     }
-
 }

@@ -10,26 +10,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import es.mde.TrastearSpring.entidades.ClienteVIP;
-import es.mde.TrastearSpring.repositorios.ClienteVipDAO;
+import es.mde.TrastearSpring.entidades.Cliente;
+import es.mde.TrastearSpring.repositorios.ClienteDAO;
 
 @RepositoryRestController
 @RequestMapping(path = "/clientes/search")
 public class ClienteController {
-	
-	private ClienteVipDAO clienteDAO;
-	
-	ClienteController(ClienteVipDAO clienteDAO){
+	private ClienteDAO clienteDAO;
+
+	public ClienteController(ClienteDAO clienteDAO) {
 		this.clienteDAO = clienteDAO;
 	}
-	
-	@GetMapping("/es-muy-vip")
+
+	@GetMapping("/get-vip")
 	@ResponseBody
-	public CollectionModel<PersistentEntityResource> getClienteMuyVIP(
+	public CollectionModel<PersistentEntityResource> getClientesConFechaPosterior(
 			PersistentEntityResourceAssembler assembler) {
-		
-		List<ClienteVIP> clientes = clienteDAO.getClienteMuyVIP();
-		
+
+		List<Cliente> clientes = clienteDAO.getClientesVip();
+
 		return assembler.toCollectionModel(clientes);
 	}
 
