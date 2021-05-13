@@ -21,14 +21,14 @@ public class Pedido {
 	@Column(unique = true)
 	private long codPedido;
 	private String cosas;
-	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
+	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	@JoinColumn(name = "CLIENTE")
-	private ClienteVIP cliente;
+	private Cliente cliente;
 	
 	public Pedido() {
 	}
 	
-	public Pedido(long codPedido, String cosas, ClienteVIP cliente) {
+	public Pedido(long codPedido, String cosas, Cliente cliente) {
 		super();
 		this.codPedido = codPedido;
 		this.cosas = cosas;
@@ -50,7 +50,7 @@ public class Pedido {
 	public Cliente getCliente() {
 		return cliente;
 	}
-	public void setCliente(ClienteVIP cliente) {
+	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
 

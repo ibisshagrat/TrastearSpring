@@ -29,7 +29,7 @@ import org.springframework.web.filter.CorsFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import es.mde.TrastearSpring.entidades.ClienteVIP;
+import es.mde.TrastearSpring.entidades.Cliente;
 import es.mde.TrastearSpring.entidades.Pedido;
 import es.mde.TrastearSpring.rest.ClienteController;
 import es.mde.TrastearSpring.rest.MixIns;
@@ -43,7 +43,7 @@ public class ConfiguracionPorJava {
 
 		ObjectMapper mapper = new ObjectMapper();
 		// Los MixIn se pueden usar y reutilizar sobre codigo que no controlo
-		mapper.addMixIn(ClienteVIP.class, MixIns.Clientes.class);
+		mapper.addMixIn(Cliente.class, MixIns.Clientes.class);
 		mapper.addMixIn(Pedido.class, MixIns.Pedidos.class);		
 		return mapper;
 	}
